@@ -1,7 +1,7 @@
 ARG NODE_RELEASE
 ARG ALPINE_RELEASE=3.17
 
-FROM node:${NODE_RELEASE}-alpine${ALPINE_RELEASE} AS build
+FROM node:18-alpine${ALPINE_RELEASE} AS build
 
 
 RUN echo "Node $(node -v) / NPM v$(npm -v)"
