@@ -1,0 +1,34 @@
+
+.container{
+  margin-top: 7px;
+  padding: 20px;
+}
+
+.card-title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.floatedButton button {
+  background-color: #EE4434;
+  float: right;
+  position: relative;
+  bottom: 26px;
+}
+
+.comment-body {
+  height: 98px;
+  background-color: #f3f3f3;
+}
+
+.Edit button {
+  float: right;
+  position: relative;
+  bottom: 45px;
+  background-color: #EE4434;
+}
+
+.list-group {
+  padding-top: 22px;
+}

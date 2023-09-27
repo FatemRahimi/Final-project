@@ -1,0 +1,16 @@
+.btn-orange {
+    background-color: #ee4434;
+    font-weight: 700;
+  }
+
+  /* .floatedButton{
+    float: right;
+  } */
+
+  .btn-add{
+    position: absolute;
+    right: 0;
+    top: 245px;
+    margin-right: 17px;
+  }
+

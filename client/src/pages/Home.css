@@ -1,0 +1,297 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.main-login{
+	background-image: url("../static/IMG_0483.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 1;
+	top: auto;
+	bottom: 0px;
+	height: 700px;
+	transform: translate3d(0px, 140px, 0px);
+	mix-blend-mode: normal;
+	/* z-index: 1; */
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	margin-top: -135px;
+}
+
+.cyf-lg {
+	margin-left: 6%;
+    max-width: 12%;
+    border: 0;
+    background-color: transparent;
+	margin-top: 0.3vw;
+
+}
+
+.login_wrapper {
+	display: flex;
+	padding: 4%;
+	position: relative;
+}
+
+.login_git {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 2vw;
+	margin-top: 0.5vw;
+	float: right;
+	font-size: 2em;
+	width: 16vw;
+	height: 27vw;
+	padding: 1%;
+	background-color: #fff;
+	opacity: 0.8;
+	border: none;
+	box-shadow: 0 0 5px 5px rgb(232, 229, 229);
+}
+
+.git_btn {
+	background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 4%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.4vw;
+    cursor: pointer;
+    user-select: none;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+}
+
+.git_btn:hover{
+	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.git-logo {
+	margin-left: 0.3vw;
+	width: 2vw;
+	height: 2vw;
+}
+
+.link {
+	text-decoration: none;
+
+}
+
+.header {
+	/* position: ; */
+	font-size: 2.52vw;
+	font-weight: 600;
+	margin-top: 4vw;
+	text-align: center;
+	margin-bottom: 2.2vw;
+	opacity: 1;
+}
+
+.login_git-h1 {
+	font-size: 2.68vw;
+	margin-bottom: 1.5vw;
+	font-weight: 800;
+	text-align: center;
+	opacity: 2;
+	color: #b4001b;
+}
+
+
+/* Situation, Task, Action, Result */
+
+.text-flicker-in-glow{
+	float: right;
+	color: rgb(255, 250, 250);
+	margin-left: 22vw;
+	margin-top: 2vw;
+	width: 35vw;
+	
+	/* position: relative; */
+}
+
+.star-h4{
+	font-size: 3.2vw;
+	list-style: none;
+}
+
+.head {
+	text-align: center;
+	text-decoration: underline #ee4434;
+	color: black;
+	margin-top: 4%;
+	font-size: 1.5em;
+}
+
+.STAR {
+	display: grid;
+	grid-template-columns: repeat(4, 19%);
+	height: 18%;
+	text-align: center;
+	justify-content: center;
+	gap: 6%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 1.5em;
+}
+
+.situation,
+.action {
+	background-color: #f3f3f3;
+	padding: 10%;
+	box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+	font-size: 0.75em;
+}
+
+.situation-h4,
+.action-h4 {
+	font-weight: 700;
+}
+
+.task,
+.result {
+	background-color: #f3f3f3;
+	padding: 10%;
+	box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+	font-size: 0.75em;
+
+}
+
+.task-h4,
+.result-h4 {
+	font-weight: 700;
+}
+
+.about {
+	background-color: #f3f3f3;
+	margin-top: 60px;
+	padding-top: 30px;
+}
+
+.video {
+	display: grid;
+	grid-template-columns: repeat(2, 46vw);
+	gap: 4%;
+}
+
+.about-h3 {
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-decoration: underline #ee4434;
+}
+
+.about-p {
+	/* width: 50%; */
+	text-align: left;
+	margin-left: 12%;
+}
+
+
+.use-h3 {
+	margin-top: 25px;
+	text-decoration: underline #ee4434;
+	font-size: x-large;
+	text-align: center;
+}
+
+.use {
+	gap: 10px;
+}
+
+.image-S {
+	width: 43vw;
+	margin-left: 5%;
+}
+
+.use-p {
+	text-align: center;
+	justify-content: center;
+	margin-top: 10px;
+	text-align: left;
+	margin-right: 12%;
+}
+
+
+.about-wrapper {
+	padding-top: 2vw;
+	font-size: large;
+}
+
+.div-concept {
+	padding-left: 60px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+}
+
+
+.social-container {
+	padding-top: 2vw;
+	text-align: center;
+}
+
+.social-p,
+.copy-p {
+	font-size: large;
+}
+
+
+.iconS {
+	padding: 4px;
+	width: 1em;
+	height: 1em;
+	font-size: 1em;
+	color: rgb(68, 67, 67);
+}
+
+.icon-div {
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	
+		.login_git {
+			margin-left: -3vw;
+		}
+	
+		.text-flicker-in-glow {
+			margin-right: 20vw;
+			padding-right: 16vw;
+			width: 22vw;
+		}
+	
+
+		.STAR{
+			grid-template-columns: repeat(2, 40%);
+		}
+
+		.video{
+			grid-template-columns: repeat(1, 80vw);
+			height: 100%;
+			gap: 1%;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.use{
+			justify-content: center;
+			align-items: center;
+			margin-left: 12%;
+		}
+		
+		.image-S{
+			margin-left: 11vw;
+		}
+
+		
+}
